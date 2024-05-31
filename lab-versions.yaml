@@ -1,6 +1,6 @@
 ---
 - name: Ping les appareils dans cisco
-  hosts: labcisco
+  hosts: all
 
   tasks:
       - name: Gather facts (ios)
